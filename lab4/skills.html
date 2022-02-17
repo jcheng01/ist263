@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 4 Tables</title>
+        <style>
+            table, td, th {border: 2px solid seagreen}
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Justin's Skill</caption><!--the tables heading-->
+            <tr>
+                <th>Category</th><!--th is the header/column-->
+                <th>Coding</th>
+                <th>Competency Level</th>
+            </tr>
+            <tr>
+                <td>Coding</td><!--td is the field data-->
+                <td>HTML</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Coding</td>
+                <td>SQL</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Coding</td>
+                <td>Python</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Software</td>
+                <td>Microsoft Excel</td>
+                <td>Certified</td>
+            </tr>
+            <tr>
+                <td>Software</td>
+                <td>Salesforce</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>Mandarin</td>
+                <td>Speaking</td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>Spanish</td>
+                <td>Limited</td>
+            </tr>
+            <tr>
+                <td>Software</td>
+                <td>Microsoft Office</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Software</td>
+                <td>Google Apps</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Operating System</td>
+                <td>Windows 10</td>
+                <td>Profficient</td>
+            </tr>
+        </table><br>
+
+        <form action="" method="post">
+            <label for="fullname" >Full name</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+        
+            <label for ="tellme">Give me feedback</label><br>
+            <textarea name="tellme" id="tellme"></textarea><br>
+
+            <label>Is this to your satisfaction?</label>
+            <select id="bianary" name="bianary">
+                <option value= "yes">yes</option>
+                <option value= "no">no</option>
+            </select><br>
+            <input type="submit" value="send feedback"><br>
+        <form action="https://formspree.io/f/mnqwdvkg" method="post"></form>
+    </body>
+</html>
+
