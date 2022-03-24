@@ -1,0 +1,15 @@
+body{background-color: #1B1A17;}
+a {color: #0b07fa;}
+h1{color: #85F4FF;}
+h2{color: #85F4FF;}
+h3{color: #85F4FF;}
+p {color: #ECECEC;}
+ul{color: #ECECEC;}
+table{color: #ECECEC;}
+form{color: #ECECEC;}
+nav a {color: #85F4FF;}
+nav a:hover {background-color: #b2bfc0;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px}
+nav{background-color: #494949;}
+table, td, th {border: 2px solid #85F4FF}
