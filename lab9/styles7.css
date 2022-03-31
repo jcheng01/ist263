@@ -14,7 +14,7 @@ nav {margin-bottom: 30px}
 nav{background-color: #494949;}
 table, td, th {border: 2px solid #85F4FF}
 .row2, .col1 {display: flex; flex:auto;justify-content:space-evenly;}
-.row1 {width:fit-content; margin: 0 auto;}
+.row1 {padding: 20px; margin: 10px;}
 .head1 {width: 100%; display: flex; justify-content: center;}
 .centertext {padding: 20px; margin: 10px;}
 .col1 {padding: 20px; margin: 10px;}
