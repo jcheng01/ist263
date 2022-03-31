@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link rel="stylesheet" href="styles7.css">
+<style>
+    .part1{display: flex; margin: 50px; border-radius: 5em; padding: 30px; background-color: #b2bfc0;}
+    .part2{display: flex; margin: 50px; border-radius: 5em; padding: 30px; background-color: #b2bfc0;}
+    .part1 div {margin: 30px}
+    .part2 div{margin: 30px; flex: 2}
+    form {color: #85F4FF;}
+</style>
+</head>
+<body>
+    <nav><a href="index.html">index</a> | <a href="skills.html">skills</a> | <a href="contactlab.html">contact</a></nav>
+    <h1>Contact</h1>
+    <div class="part1">
+        <div class="div1">
+            <h1>Address</h1>
+            <h3>
+                Justin Cheng <br>
+                140 Lambreth Ln <br>
+                Syracuse <br>
+                NY <br>
+            </h3>
+        </div>
+        <div class="div2">
+            <a href="https://www.linkedin.com/in/chengjustin0222">
+            <img src="../image/LI-In-Bug.png" alt ="logo" width="200" height="200">MyLinkedIn</a><br>
+        </div>
+        <div class="div3">
+            <a href="mailto:jcheng01@syr.edu">
+            <img src="../image/headshot.2020.png" alt="me" width="200" height="200">Email:Justin Cheng</a>
+        </div>
+    </div>
+    <div class="part2">
+        <div class="div4">
+            <form action="https://formspree.io/f/mnqwdvkg" method="POST">
+                <label for="fullname" >Full name</label><br>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for ="tellme">Give me feedback</label><br>
+                <textarea name="tellme" id="tellme"></textarea><br>
+        
+                <label>Is this to your satisfaction?</label>
+                <select id="bianary" name="bianary">
+                    <option value= "yes">yes</option>
+                    <option value= "no">no</option>
+                </select><br>
+                <input type="submit" value="send feedback"><br>
+            </form>
+        </div>
+        <div class="div5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.108086018889!2d-76.13730448460676!3d43.03915729993656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1644509811816!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+</body>
+</html>
