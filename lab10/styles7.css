@@ -1,0 +1,23 @@
+body{background-color: #6b6b6b; font-family: 'Times New Roman', Times, serif;}
+a {color: #0b07fa;}
+h1{color: #85F4FF;}
+h2{color: #85F4FF;}
+h3{color: #85F4FF;}
+p {color: #ECECEC;}
+ul{color: #ECECEC;}
+table{color: #ECECEC;}
+form{color: #ECECEC;}
+nav a {color: #85F4FF;}
+nav a:hover {background-color: #868686;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px}
+nav{background-color: #494949;}
+table, td, th {border: 2px solid #85F4FF}
+.row2, .col1 {display: flex; flex:auto;justify-content:space-evenly;}
+.row1 {padding: 20px; margin: 10px;}
+.head1 {width: 100%; display: flex; justify-content: center;}
+.centertext {padding: 20px; margin: 10px;}
+.col1 {padding: 20px; margin: 10px;}
+.col2 {padding: 20px; margin: 10px; border-radius: 2em; background-color: #494949;}
+@media only screen and (max-width: 600px){nav a {display: block;padding: 5px;} body span{display: none;}}
+
