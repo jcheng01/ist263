@@ -1,4 +1,6 @@
 hr {margin-top: 20px; margin-bottom: 20px;}
+a:link{color: #000000;}
+a:hover{color: #cf7207;}
 h1 {text-align: center;padding: 30px;}
 .experience,.education, .skills {display: flex;}
 .experience img {justify-content: center;}
@@ -8,4 +10,4 @@ h1 {text-align: center;padding: 30px;}
 .statlist {padding: 100px;}
 .nav{display: flex; justify-content: space-around;}
 p{text-align: center;margin: 20px;}
-.centerexp1, .centerexp2 {display: flex; justify-content: center;}
+.exp1, .exp2 {text-align: center;}
