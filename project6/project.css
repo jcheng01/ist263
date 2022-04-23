@@ -1,4 +1,6 @@
 body{margin: 0;padding: 0; font-family: 'Times New Roman', Times, serif;}
+section{font-family: 'Times New Roman', Times, serif
+    ;}
 hr{margin-left: 40px; margin-right: 40px;}
 section{text-align: center; padding-top: 50px; padding-bottom: 50px;}
 section h1 {color: #000E54}
