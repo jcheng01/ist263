@@ -6,107 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link rel="stylesheet" href="project.css">
+    <script>
+        function firstbutton() {
+            document.getElementById("education").innerHTML = window.location.href= "https://ischool.syr.edu/academics/information-management-and-technology-bachelors-degree/"
+        }
+    </script>
 </head>
 <body>
-    <h1>Justin Cheng</h1>
+    <header>
+        <div class="head">
+            <div class="topright"> <a href="home.html"><h1>Justin Cheng</h1></a></div>
+            <div class="headrow2">
+                <div class="nav">
+                    <nav>
+                        <a href="home.html" target="_blank" tabindex="1">home</a> <span>|</span><a href="bio.html" target="_blank" tabindex="1">bio</a><span>|</span><a href="blogs.html" target="_blank" tabindex="1">blog</a><span>|</span><a href="contactlab.html" target="_blank" tabindex="1">contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="fadedhomephoto">
+            <img src="IMG_4989.jpeg" alt="homephoto" class="homephoto">
+            <div class="fadedhometext">
+                <h1>Welcome</h1>
+                <p>This is my intro project to front end development, thank you for visiting. </p>
+            </div>
+        </div>
+        
+    </header>
+    
+   <section class="sectionone">
+        <h1>Education</h1>
+        <a href="https://ischool.syr.edu/"><img src="../image/Syracuseor.png" alt="ischool" height="200" class="syracuse"></a>
+        <p>
+            I intially came into syracuse becuase the school had given me the best fininacial aid. I came in as a clueless business major because I was scared of a diffiuclt time in college. But I switched into ischool my second semester at cuse to pursue a deeper opportunistic career. Now my concentration is in web development and my goals are to continue this motivation to build front end websites and learn more about what coding languages go into a professional website. Now I am on the iSchools <strong>Deans List</strong> with a <strong>gpa of 3.7</strong>. My expected graduation date is 12/2023.
+        </p> 
+        <br>    
+        <button id="education" type="button" onclick="firstbutton();">Studies</button>
+        <hr>
+   </section>
 
-    <p>
-        Student pursuing BS in Information Management & Technology along with concentrations in Front End Web
-        Development and Retail Strategies. Experienced in recreational and technical tasks with proven knowledge of work management.
-    </p>
 
-   <div class="nav">
+   <section class="sectiontwo">
+       <h1>Skillset</h1>
+       <article>
+            <div>
+                <img src="../image/html.png" alt ="logo" width="200" height="200" class="logo1"><br>
+                <h2>HTML</h2><br>
+            </div>
+            <div>
+                <img src="../image/CSS.png" alt ="logo" width="200" height="200" class="logo2"><br>
+                <h2>CSS</h2><br>
+            </div>
+            <div>
+                <img src="../image/js.png" alt ="logo" width="200" height="200" class="logo3"><br>
+                <h2>Javascript</h2><br>
+            </div>
+        </article>
+        <article>
+            <div>
+                <img src="../image/sql.png" alt ="logo" width="200" height="200" class="logo4"><br>
+                <h2>SQL</h2><br>
+            </div>
+            <div>
+                <img src="../image/excel.png" alt ="logo" width="200" height="200" class="logo5"><br>
+                <h2>Excel</h2><br>
+            </div>
+            <div>
+                <img src="../image/project.png" alt ="logo" width="200" height="200" class="logo6"><br>
+                <h2>Project</h2><br>
+            </div>
+        </article>
+        <hr>
+    </section>
+
+    <section class="sectionthree">
+        <h1>Experiences</h1>
+        <article>
+            <div class="exp1">
+                <img src="../image/Syracuseor.png" alt="Barnes" height="200"class="barnes">
+                <div class="fade">
+                    <div class="text">
+                        <ul>
+                            <li>Provided excellent patron service effectively maintaining 99% satisfaction rate</ul>
+                            <li>Delegated service assignments amongst other recreational staff</ul>
+                            <li>Answered Queries on wide-ranging concerns utilizing facility virtual catalog</ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="exp2">
+                <img src="../image/us-deloitte-logo.webp" alt="deloitte" height="200" class="deloitte">
+                <div class="fade2">
+                    <div class="text2">
+                        <ul>
+                            <li>Actively engaged in understanding Salesforce platform management tools</ul>
+                            <li>Worked with Certified salesforce professionals on tasks to broaden comprehension of UI</ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="exp3">
+                <img src="../image/dycp.jpg" alt="syep" height="200" class="syep">
+                <div class="fade3">
+                    <div class="text3">
+                        <ul>
+                            <li>Virtual File Organization increased by 50% efficiency</ul>
+                            <li>Organized existing Excel spreadsheets by up to 33% reflecting updated databases</ul>
+                            <li>Bridged communication strategies between staff to aid project delegation</ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <hr>
+    </section>  
+    <footer>
         <div>
             <nav>
-                <a href="home.html" target="_blank">home</a> | <a href="bio.html" target="_blank">bio</a> | <a href="blogs.html" target="_blank">blog</a> | <a href="contactlab.html" target="_blank">contact</a>
+                <a href="home.html" target="_blank">home</a><a href="bio.html" target="_blank">bio</a><a href="blogs.html" target="_blank">blog</a><a href="contactlab.html" target="_blank">contact</a>
             </nav>
         </div>
         <div>
             <nav> 
-                <a href="https://www.linkedin.com/in/chengjustin0222"><img src="../image/LI-In-Bug.png" alt ="logo" width="30" height="30"></a> | 
-                <a href="https://www.instagram.com/"><img src="../image/insta.jpeg" width="30" height="30" alt="insta"></a>|
-                <a href="https://www.facebook.com/"><img src="../image/icons8-meta-96.jpg" width="30" height="30" alt="fb"></a>
+                <a href="https://www.linkedin.com/in/chengjustin0222"><img src="../image/linkinlogo.png" alt ="logo" width="30" height="30"></a> 
+                <a href="https://www.instagram.com/"><img src="../image/instalogo.png" width="30" height="30" alt="insta"></a>
+                <a href="https://www.facebook.com/"><img src="../image/fblogo.png" width="30" height="30" alt="fb"></a>
             </nav>
         </div>
-        </div>
-    
-    <hr>
-    
-    <h1>Education</h1>
-    <div class="education">
-        <div>
-            <a href="https://ischool.syr.edu/"><img src="../image/ischool.jpeg" alt="ischool" height="300"></a>
-        </div>
-        <div class="statlist">
-            <ul>
-                <li>GPA: 3.7</li>
-                <li>Grad Date: 2023</li>
-                <li>Deans List</li>
-            </ul>
-        </div>
-    </div>
-    <p>
-        I intially came into syracuse becuase the school had given me the best fininacial aid. I came in as a clueless business major because I was scared of a diffiuclt time in college. But I switched into ischool my second semester at cuse to pursue a deeper opportunistic career. Now my concentration is in 
-    </p>
 
-    <hr>
-    <h1>Experiences</h1>
-    <div class="experience">
-        <div class="exp1">
-            <a href="https://experience.syracuse.edu/bewell/"><img src="../image/download.jpeg" alt="Barnes" height="200" class="centerexp1"></a>
-            <br>
-            <ul>
-                <li>Provided excellent patron service effectively maintaining 99% satisfaction rate</ul>
-                <li>Delegated service assignments amongst other recreational staff</ul>
-                <li>Answered Queries on wide-ranging concerns utilizing facility virtual catalog</ul>
-            </ul>
-        </div>
-        <div class="exp2">
-            <img src="../image/us-deloitte-logo.webp" alt="deloitte" height="200" class="centerexp2">
-            <br>
-            <ul>
-                <li>Actively engaged in understanding Salesforce platform management tools</ul>
-                <li>Worked with Certified salesforce professionals on tasks to broaden comprehension of UI</ul>
-            </ul>
-        </div>
-        <div class="exp3">
-            <img src="../image/syep.png" alt="syep" height="200">
-            <br>
-            <ul>
-                <li>Virtual File Organization increased by 50% efficiency</ul>
-                <li>Organized existing Excel spreadsheets by up to 33% reflecting updated databases</ul>
-                <li>Bridged communication strategies between staff to aid project delegation</ul>
-            </ul>
-        </div>
-    </div>  
-    <hr>
-   
-    <h1>Skills</h1>
-    <div>
-        <div class="skills">
-            <div>
-                <img src="../image/CSS.png" alt ="logo" width="100" height="100"><br>
-                <h2>CSS</h2><br>
-            </div>
-            <div>
-                <img src="../image/SQL.png" alt ="logo" width="100" height="100"><br>
-                <h2>SQL</h2><br>
-            </div>
-            <div>
-                <img src="../image/html.png" alt ="logo" width="100" height="100"><br>
-                <h2>HTML</h2><br>
-            </div>
-            <div>
-                <img src="../image/access.png" alt ="logo" width="100" height="100"><br>
-                <h2>Microsoft access</h2><br>
-            </div>
-            <div>
-                <img src="../image/excel.png" alt ="logo" width="100" height="100"><br>
-                <h2>Microsoft Excel</h2><br>
-            </div>
-        </div>
-    </div>
-    
-&copy; 2022
+        <div class="copyright">&copy; 2022</div>
+    </footer>
 </body>
 </html>
