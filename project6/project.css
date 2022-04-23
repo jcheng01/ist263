@@ -62,14 +62,14 @@ nav{text-align: center;}
 
 /*skills*/
 
-.sectiontwo article{display: flex; justify-content: space-around; flex-wrap: wrap;}
-.sectiontwo article div{flex: 1; padding: 50px;}
+.sectiontwo div{display: flex; justify-content: space-around; flex-wrap: wrap;}
+.sectiontwo div div{flex: 1; padding: 50px;}
 
 
 /*exp*/
 .sectionthree{padding-bottom: 30px;}
-.sectionthree article{display: flex; justify-content: space-evenly;flex-wrap: wrap;}
-.sectionthree article div{justify-content: center; flex: 1; padding: 50px;}
+.sectionthree div{display: flex; justify-content: space-evenly;flex-wrap: wrap;}
+.sectionthree div div{justify-content: center; flex: 1; padding: 50px;}
 
 
 /**/
