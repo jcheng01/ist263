@@ -61,9 +61,8 @@ nav{text-align: center;}
 
 
 /*skills*/
-
-.sectiontwo div{display: flex; justify-content: space-around; flex-wrap: wrap;}
-.sectiontwo .row1 div, .sectiontwo .row2 div{flex: 1; padding: 50px;}
+.row1, .row2{display: flex; justify-content: space-around; flex-wrap: wrap;}
+.row1 div, .row2 div{flex: 1; padding: 50px;}
 
 
 /*exp*/
