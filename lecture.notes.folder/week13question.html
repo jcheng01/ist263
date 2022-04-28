@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick</title>
+    <script>
+        function Right () {
+            document.getElementById("right").innerHTML = "Good job"
+        }
+        function Wrong () {
+            document.getElementById("wrong").innerHTML = "try again"
+        }
+        //1) document refers the entire web page
+        //2) getelement 
+        //3) any element, attribute and tag is a node that js can change
+        
+    </script>
+</head>
+<body>
+    <p> java is different from js</p>
+    <p id="right" onclick="Wrong();">yes</p>
+    <p id="wrong" onclick= "Right();">no</p>
+    <!--on click is the event or what happens to perform function-->
+</body>
+</html>

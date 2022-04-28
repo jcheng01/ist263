@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function correct () {
+            document.getElementById("right").innerHTML = "Good job"; document.getElementById("pagecolor").style.backgroundColor = "green"
+        }
+        function incorrect () {
+            document.getElementById("wrong").innerHTML = "try again"
+        }
+        
+    </script>
+</head>
+
+<body id="pagecolor" >
+    <p>Is it raining today?</p>
+    <p id="right" onclick="correct();">T</p>
+    <p id="wrong" onclick="incorrect();">F</p>
+</body>
+</html>

@@ -11,6 +11,7 @@ section{background-color: #b5c2fc48;}
 }
 
 
+
 /*header*/
 a:link { text-decoration: none; color: #F76900;}
 a:visited { text-decoration: none; color: #F76900;}
@@ -64,7 +65,8 @@ nav{text-align: center;}
 
 /*skills*/
 .row1, .row2{display: flex; justify-content: space-around; flex-wrap: wrap;}
-.row1 div, .row2 div{flex: 1; padding: 50px;}
+.row1 div, .row2 div{flex: 1;}
+.sectiontwo div{padding: 20px;}
 
 
 /*exp*/
