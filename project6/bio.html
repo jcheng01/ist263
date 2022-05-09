@@ -19,6 +19,12 @@
         function changbackimgcard () {
             document.getElementById("rollovertwo").setAttribute("src", "https://jcheng01.github.io/ist263/image/card-game.png")
         }
+        function changeimgmoney () {
+            document.getElementById("rolloverthree").setAttribute("src", "https://jcheng01.github.io/ist263/image/dollarsign.png")
+        }
+        function changbackimgmoney () {
+            document.getElementById("rolloverthree").setAttribute("src", "https://jcheng01.github.io/ist263/image/lifestyle.png")
+        }
     </script>
 </head>
 <body>
@@ -59,7 +65,7 @@
         <hr>
         <div class="life">
             <h2>Lifestyle</h2>
-            <img src="../image/lifestyle.png" alt="home" height="250">
+            <img src="../image/lifestyle.png" alt="home" height="250" id="rolloverthree" onmouseover="changeimgmoney();" onmouseout="changbackimgmoney();">
             <p>
                 In highschool things got busy and going into college, even busier. Now my passion is to improve my way of life and that means improving aspects on how productive I can be, how to schedule my workout routine, and how having a routine keeps me organized and happy overall. 
             </p>
