@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="project.css">
     <script>
         function changeimg () {
-            document.getElementById("rollover").setAttribute("src", "https://jcheng01.github.io/ist263/image/pokeball%20(1).png")
+            document.getElementById("rollover").setAttribute("src", "https://jcheng01.github.io/ist263/image/pokemon.png")
         }
         function changbackimg () {
-            document.getElementById("rollover").setAttribute("src", "https://jcheng01.github.io/ist263/image/ist263/image/pika.png")
+            document.getElementById("rollover").setAttribute("src", "https://jcheng01.github.io/ist263/image/pokeball%20(1).png")
+        }
+        function changeimgcard () {
+            document.getElementById("rollovertwo").setAttribute("src", "https://jcheng01.github.io/ist263/image/card-game.png")
+        }
+        function changbackimgcard () {
+            document.getElementById("rollovertwo").setAttribute("src", "https://jcheng01.github.io/ist263/image/poker-chip.png")
         }
     </script>
 </head>
@@ -37,7 +43,7 @@
     <Section>
         <div class="vg">
             <h2>Video Games</h2>
-            <img src="../image/pokeball (1).png" alt="home" height="250" onmouseover="changeimg();" onmouseout="changbackimg();">
+            <img src="../image/pokeball (1).png" alt="home" height="250" id="rollover" onmouseover="changeimg();" onmouseout="changbackimg();">
             <p>
                 I grew up loving pokemon as a game. I would spend hours and days in middleschool grinding out the game because I was so invested in being the best "pokemon trainer." I slowly grew out of gaming becuase I began to find it meaningless. After spending hours in a game I gained nothing valuable. All the time feels wasted on a virtual disk and I can never get the valuable time back. The only time I feel games are approriate is when making memories within a group environment. 
             </p>
@@ -45,7 +51,7 @@
         <hr>
         <div class="cards">
             <h2>Cards</h2>
-            <img src="../image/card-game.png" alt="home" height="250">
+            <img src="../image/card-game.png" alt="home" height="250" id="rollovertwo" onmouseover="changeimgcard();" onmouseout="changbackimgcard();">
             <p>
                 If i didnt sound introverted enough, growing up I was also invested in collecting cards, specifically Yu-Gi-Oh cards. I would spend too much money on pieces of paer with cool art and simply collect them. I would also play cards games like texas holdem, and chinese poker. Developing a small gambling adition was absolutely necessasry haha. But having all these expiereinces definitely helped shape me into the person I am today. 
             </p>
