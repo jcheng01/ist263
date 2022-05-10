@@ -1,18 +1,63 @@
-.collage {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
+body{margin: 0;padding: 0; font-family: 'Times New Roman', Times, serif;}
+section{font-family: 'Times New Roman', Times, serif
+    ;}
+hr{margin-left: 40px; margin-right: 40px;}
+section{text-align: center; padding-top: 20px; padding-bottom: 50px;}
+section h1 {color: #000E54}
+
+a:link { text-decoration: none; color: #F76900;}
+a:visited { text-decoration: none; color: #F76900;}
+a:hover { text-decoration: none; color: #000E54; }
+a:active { text-decoration: none; }
+
+
+h1 {text-align: center;}
+
+
+
+
+header nav{padding: 30px;}
+nav a{padding: 10px;}
+nav span{color: #a0a0a0;}
+nav{text-align: center;}
+
+
+footer div {padding: 10px;}
+.navfoot {display: flex;}
+
+.copyright{text-align: right; margin-right: 20px;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #F76900;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #db6001;
+}
+
+div {
+  border-radius: 5px;
   
-  /* Create four equal columns that sits next to each other */
-  .collagecol {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .columncol img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+  padding: 20px;
+}
+
+.flexform{display: flex;}
+
+header, footer {background-color: #b5c2fc48;}
