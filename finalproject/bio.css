@@ -1,11 +1,11 @@
-body{margin: 0;padding: 0; font-family: 'Times New Roman', Times, serif;}
+body{margin: 0;padding: 0; font-family: 'Times New Roman', Times, serif; background-color: #b5c2fc48;}
 section{font-family: 'Times New Roman', Times, serif;}
 hr{margin-left: 40px; margin-right: 40px;}
 section{text-align: center; padding-top: 20px; padding-bottom: 50px;}
 section h1 {color: #000E54}
-section{background-color: #b5c2fc48;}
-header, footer, body {background-color: #b5c2fc48;}
-h2 {text-align: center;}
+
+
+h1 {text-align: center;}
 
 #hamburger{width: 60px; display: none; text-align: right;}
 @media only screen and (max-width: 600px)
@@ -25,13 +25,11 @@ h2 {text-align: center;}
 a:link { text-decoration: none; color: #F76900;}
 a:visited { text-decoration: none; color: #F76900;}
 a:hover { text-decoration: none; color: #000E54; }
-a:active { text-decoration: none; }
-header{background-color: #b5c2fc48
-    ;}
+a:active { text-decoration: none;}
 
 h1 {text-align: center;}
 
-.head{  background-color: #ffffff75;}
+
 
 
 header nav{padding: 30px;}
@@ -46,8 +44,9 @@ nav{text-align: center;}
 
 
 /**/
-footer{background-color: #b5c2fc48;}
 
+
+footer div {padding: 10px;}
 
 .copyright{text-align: right; margin-right: 20px;}
 
