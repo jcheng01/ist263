@@ -14,7 +14,8 @@ section{background-color: #b5c2fc48;}
     #nav {display: none;}
     .head {display: flex; padding: 20px; justify-content: space-between; flex-wrap: wrap;}
     .topright {margin-top: 20px;}
-    
+    .footer {display: flex; justify-content: space-evenly;}
+
 
 }
 
@@ -164,9 +165,6 @@ nav{text-align: center;}
 
 
 /**/
-footer{background-color: #b5c2fc48;}
-footer div {padding: 10px;}
-.navfoot {display: flex;}
 
 .copyright{text-align: right; margin-right: 20px;}
 
