@@ -6,8 +6,15 @@ section{text-align: center; padding-top: 20px; padding-bottom: 50px;}
 section h1 {color: #000E54}
 section{background-color: #b5c2fc48;}
 
+#hamburger{width: 60px; display: none; text-align: right;}
 @media only screen and (max-width: 600px)
-    {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;}
+    {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;} 
+    #hamburger{display: block; }
+    #nav a {display: block;}
+    #nav {display: none;}
+    .head {display: flex; padding: 20px;}
+    header {display: flex; justify-content: space-between;}
+    .title {margin-left: 30px; margin-top: 20px;}
 }
 
 
@@ -30,127 +37,9 @@ nav a{padding: 10px;}
 nav span{color: #a0a0a0;}
 nav{text-align: center;}
 
-.fadedhometext p {text-align: center;}
-.homephoto{max-width: 100%;}
-.fadedhomephoto {position: relative;}
-.fadedhomephoto .fadedhometext {
-    position: absolute; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: #000000; /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
-    }
 
-
-
-/*section 1*/
-
-
-
-.sectionone p {margin:60px}
-#education {
-    background-color: #000000;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-
-/*skills*/
-.row1, .row2{display: flex; justify-content: space-around; flex-wrap: wrap;}
-.row1 div, .row2 div{flex: 1;}
-.sectiontwo div{padding: 20px;}
-
-
-/*exp*/
-.sectionthree{padding-bottom: 30px;}
-.sectionthree div{display: flex; justify-content: space-evenly;flex-wrap: wrap;}
-.sectionthree div div{justify-content: center; flex: 1; padding: 50px;}
-
-
-/**/
-
-
-.exp1, .exp2, .exp3{
-    position: relative;
-    width: 50%;
-  }
-.barnes, .deloitte, .syep{
-    opacity: 1;
-    height: 350px;
-    width: 350px;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-.fade, .fade2, .fade3 {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-70%, -50%);
-    text-align: center;
-  }
-  
-.exp1:hover .barnes, .exp2:hover .deloitte, .exp3:hover.syep {
-    opacity: 0.3;
-  }
-  
-.exp1:hover .fade, .exp2:hover .fade2, .exp3:hover.fade3 {
-    opacity: 1;
-  }
-
-.text, .text2, .text3{
-    color: #000000;
-    font-size: 20px;
-  }
-  .exp3{
-    position: relative;
-    width: 50%;
-  }
-.syep{
-    opacity: 1;
-    height: 350px;
-    width: 350px;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-.fade3{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .exp3:hover .syep {
-    opacity: 0.3;
-  }
-  
-  .exp3:hover .fade3 {
-    opacity: 1;
-  }
-
-  .text3 {
-    color: #000000;
-    font-size: 20px;
-  }
-
-/**/
-
+.hobbies div{display: flex; justify-content: space-evenly;flex-wrap: wrap;}
+.hobbies div div {flex: 1;}
 
 
 
@@ -165,9 +54,10 @@ footer div {padding: 10px;}
 div p {text-align: center;}
 section div img {text-align: center; border: 3px solid #000e5456;margin-top: 20px; padding: 10px; border-radius: 2em;background-color: #000E54; }
 section div p {text-align: center;padding: 30px; background-color: #000e5456; border-radius: 2em; margin-right: 30px; margin-left: 30px; margin-bottom: 50px;}
-.growingflex {display: flex; margin: 20px;justify-content: center;}
-.growingflex div {margin: 20px;justify-content: space-around;}
+.growingflex {display: flex; margin: 20px;justify-content: center; flex-wrap: wrap;}
+.growingflex div {margin: 20px;justify-content: space-around; flex: 1;}
 .hobbyflex {display: flex; justify-content: space-around;}
 .hobbyflex div {justify-content: space-around;}
 
 .gucenter {text-align: center; margin: 120px;}
+

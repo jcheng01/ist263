@@ -1,4 +1,4 @@
-body{margin: 0;padding: 0; font-family: 'Times New Roman', Times, serif;}
+body{margin: 0;padding: 0; font-family: 'Times New Roman', Times, serif; }
 section{font-family: 'Times New Roman', Times, serif
     ;}
 hr{margin-left: 40px; margin-right: 40px;}
@@ -14,7 +14,7 @@ a:active { text-decoration: none; }
 h1 {text-align: center;}
 
 
-
+.profile {max-width: 100%;}
 
 header nav{padding: 30px;}
 nav a{padding: 10px;}
@@ -58,6 +58,26 @@ div {
   padding: 20px;
 }
 
-.flexform{display: flex;}
+.flexform, .flexmap{display: flex;}
+.flexmap{flex-wrap: wrap;}
+.flexmap div {flex: 1;}
+.flexform, .flexmap{background-color: #7790ff48; border-radius: 2em; margin: 50px;}
+.flexmap{justify-content: space-evenly;}
+hr {margin-top: 75px; margin-bottom: 75px;}
+iframe {border: 5px solid #7790ff48;}
 
-header, footer {background-color: #b5c2fc48;}
+header, footer, body {background-color: #b5c2fc48;}
+
+
+
+#hamburger{width: 60px; display: none; text-align: right;}
+@media only screen and (max-width: 600px)
+    {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;} 
+    #hamburger{display: block;}
+    #nav a {display: block;}
+    #nav {display: none;}
+    .head {display: flex; padding: 20px;}
+    header {display: flex; justify-content: space-between;}
+    .title {margin-top: 20px;}
+    
+}

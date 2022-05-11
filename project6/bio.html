@@ -25,18 +25,37 @@
         function changbackimgmoney () {
             document.getElementById("rolloverthree").setAttribute("src", "https://jcheng01.github.io/ist263/image/lifestyle.png")
         }
+        function toggleNav () {
+                if (document.getElementById("nav").style.getPropertyValue("display") == "block") {
+                    document.getElementById("nav").style.display = "none";
+                }
+
+                else {
+                    document.getElementById("nav").style.display = "block";}
+            }
     </script>
 </head>
 <body>
     <header>
-        <a href="bio.html"><h1>Biography</h1></a>
-        <nav><a href="home.html" target="_blank">home</a> | <a href="bio.html" target="_blank">bio</a> | <a href="contact.html" target="_blank">contact</a></nav>
+        <div class="title">
+           <a href="bio.html"><h2>Biography</h2></a> 
+        </div>
+        <div class="headrow2">
+            <nav>
+                <img src="../image/menu.png" alt="hamburger icon" id="hamburger" onclick="toggleNav();">
+                <div id="nav">
+                    <a href="home.html" target="_blank">home</a><span>|</span>
+                    <a href="bio.html" target="_blank" >bio</a><span>|</span>
+                    <a href="contact.html" target="_blank" >contact</a>
+                </div>
+            </nav>
+        </div>
     </header>
     <section>
         <hr>
         <h1>Growing up</h1>
         <div class="growingflex">
-            <div> <a href="https://www.google.com/maps/place/East+Harlem,+New+York,+NY/@40.8004667,-73.9597582,14z/data=!3m1!4b1!4m5!3m4!1s0x89c2f60f3189564d:0x1f81ef1c8b10115e!8m2!3d40.7957399!4d-73.9389213"><img src="../image/eastharlem.jpeg" alt="home" height="400"></a></div>
+            <div> <a href="https://www.google.com/maps/place/East+Harlem,+New+York,+NY/@40.8004667,-73.9597582,14z/data=!3m1!4b1!4m5!3m4!1s0x89c2f60f3189564d:0x1f81ef1c8b10115e!8m2!3d40.7957399!4d-73.9389213"><img src="../image/eastharlem.jpeg" alt="home" height="400" class="home"></a></div>
             <div>
                 <p class="gucenter">
                     I was born and raised in Manhattan. When you hear the word "Manhattan," you think city, wealth, comfort, higher end. However that is not the case. I live in east harlem and it has a reputation for its lower standards and occasional drugs. I have been living in east harlem for as long as i can remember and it has been a big part of my personal development in terms of characteristics.
@@ -72,7 +91,7 @@
         </div>
         <hr>
     </Section>
-    <section>
+    <section class="hobbies">
         <h1>Hobbies</h1>
         <div class="hobbyflex">
             <div>

@@ -5,17 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="contact.css">
+    <script>
+        function  alertfunction (){
+            alert('Message Sent!');
+        }
+        function toggleNav () {
+                if (document.getElementById("nav").style.getPropertyValue("display") == "block") {
+                    document.getElementById("nav").style.display = "none";
+                }
+
+                else {
+                    document.getElementById("nav").style.display = "block";}
+            }
+    </script>
 </head>
 <body>
     <header>
-        <a href="contact.html"><h1>Contact</h1></a>
-        <nav><a href="home.html" target="_blank">home</a> | <a href="bio.html" target="_blank">bio</a> | <a href="contact.html" target="_blank">contact</a></nav>
+        <div class="title">
+          <a href="contact.html"><h1>Contact</h1></a>  
+        </div>
+        <div class="headrow2">
+            <nav class="n">
+                <img src="../image/menu.png" alt="hamburger icon" id="hamburger" onclick="toggleNav();">
+                <div id="nav">
+                    <a href="home.html" target="_blank">home</a><span>|</span>
+                    <a href="bio.html" target="_blank" >bio</a><span>|</span>
+                    <a href="contact.html" target="_blank" >contact</a>
+                </div>
+            </nav>
+        </div>
     </header>
     <section>
         <div class="flexform">
             <div>
                 <h2>Contact Me</h2>
-                <form action="https://formspree.io/f/mnqwdvkg" method="POST">
+                <form action="https://formspree.io/f/mnqwdvkg" method="POST" onsubmit="alertfunction();">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -32,13 +56,22 @@
                     <option value="career">Career</option>
                     </select>
                 
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Send" >
                 </form>
             </div>
             <div>
-                <img src="../image/profile.png" alt="Freepick">
-                <a href="mailto:jcheng01@syr.edu">Email:Justin Cheng</a>
+                <img src="../image/profile.png" alt="Freepick" class="profile">
+                <a href="mailto:jcheng01@syr.edu">Email: Justin Cheng</a>
                 <p>347-323-4852</p>
+            </div>
+        </div>
+        <hr>
+        <div class="flexmap">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11665.77782260301!2d-76.14359095!3d43.03207924999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fca155555%3A0xc1c69e4f641652c1!2sSyracuse%20University%20School%20of%20Information%20Studies%20(iSchool)!5e0!3m2!1sen!2sus!4v1652236057555!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <img src="../image/Syracuseor.png" alt="syr" height="450">
             </div>
         </div>
     </section>

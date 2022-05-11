@@ -10,18 +10,34 @@
         function firstbutton() {
             document.getElementById("education").innerHTML = window.location.href= "https://ischool.syr.edu/academics/information-management-and-technology-bachelors-degree/"
         }
+        function toggleNav () {
+                if (document.getElementById("nav").style.getPropertyValue("display") == "block") {
+                    document.getElementById("nav").style.display = "none";
+                }
+
+                else {
+                    document.getElementById("nav").style.display = "block";}
+            }
+        function scale () {
+            document.getElementsById("logo6").style.transform = "rotate(7deg)";
+        }
     </script>
 </head>
 <body>
     <header>
         <div class="head">
-            <div class="topright"> <a href="../image/SPR22RESUME.CHENG.jpg"><h1>Justin Cheng</h1></a></div>
+            <div class="topright"> 
+                <a href="../image/SPR22RESUME.CHENG.jpg"><h1>Justin Cheng</h1></a>
+            </div>
             <div class="headrow2">
-                <div class="nav">
-                    <nav>
-                        <a href="home.html" target="_blank">home</a> <span>|</span><a href="bio.html" target="_blank" >bio</a><span>|</span><a href="contact.html" target="_blank" >contact</a>
-                    </nav>
-                </div>
+                <nav class="n">
+                    <img src="../image/menu.png" alt="hamburger icon" id="hamburger" onclick="toggleNav();">
+                    <div id="nav">
+                        <a href="home.html" target="_blank">home</a><span>|</span>
+                        <a href="bio.html" target="_blank" >bio</a><span>|</span>
+                        <a href="contact.html" target="_blank" >contact</a>
+                    </div>
+                </nav>
             </div>
         </div>
         <div class="fadedhomephoto">
@@ -31,7 +47,6 @@
                 <p>This is my intro project to front end development, thank you for visiting. </p>
             </div>
         </div>
-        
     </header>
     
    <section class="sectionone">
@@ -71,7 +86,7 @@
                 <img src="../image/excel.png" alt ="excellogo" width="200" height="200" class="logo5"><br>
                 <h2>Excel</h2><br>
             </div>
-            <div>
+            <div id="logo6" onmouseover="scale();">
                 <img src="../image/project.png" alt ="projectlogo" width="200" height="200" class="logo6"><br>
                 <h2>Project</h2><br>
             </div>
