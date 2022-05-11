@@ -6,6 +6,8 @@ section{text-align: center; padding-top: 20px; padding-bottom: 50px;}
 section h1 {color: #000E54}
 section{background-color: #b5c2fc48;}
 
+h2 {text-align: center;}
+
 #hamburger{width: 60px; display: none; text-align: right;}
 @media only screen and (max-width: 600px)
     {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;} 
