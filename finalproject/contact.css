@@ -52,7 +52,7 @@ section div {
 }
 
 .flexform{display: flex;}
-.ava {justify-content: center;}
+.flexform div {text-align: center;}
 .flexmap{display: flex; flex-wrap: wrap; padding: 30px; justify-content: space-evenly;}
 .flexmap img {padding-top: 20px;}
 
@@ -73,12 +73,12 @@ iframe {padding-top: 35px;}
 #hamburger{width: 60px; display: none; text-align: right;}
 @media only screen and (max-width: 600px)
     {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;} 
-    #hamburger{display: block;}
+    #hamburger{display: block;margin-top: 50px; margin-right: 50px;}
     #nav a {display: block;}
     #nav {display: none;}
     .head {display: flex; padding: 20px;}
     header {display: flex; justify-content: space-between;}
-    .title {margin-top: 20px;}
+    .title {margin-top: 40px; margin-left: 20px;}
     .footer {display: flex; justify-content: space-evenly;}
     .footer nav a {padding: 10px;}
     

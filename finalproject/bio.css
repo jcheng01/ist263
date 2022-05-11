@@ -10,12 +10,12 @@ h1 {text-align: center;}
 #hamburger{width: 60px; display: none; text-align: right;}
 @media only screen and (max-width: 600px)
     {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;} 
-    #hamburger{display: block; }
+    #hamburger{display: block; margin-top: 20px; margin-right: 20px;}
     #nav a {display: block;}
     #nav {display: none;}
     .head {display: flex; padding: 20px;}
     header {display: flex; justify-content: space-between;}
-    .title {margin-left: 30px; margin-top: 20px;}
+    .title {margin-left: 20px; margin-top: 40px;}
     .footer {display: flex; justify-content: space-evenly;}
 }
 
@@ -41,7 +41,8 @@ nav{text-align: center;}
 .hobbies div{display: flex; justify-content: space-evenly;flex-wrap: wrap;}
 .hobbies div div {flex: 1;}
 
-
+.over {max-inline-size: 100%;
+    block-size: auto;}
 
 /**/
 
