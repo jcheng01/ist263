@@ -13,7 +13,6 @@ a:active { text-decoration: none; }
 
 h1 {text-align: center;}
 
-
 .profile {max-width: 100%;}
 
 header nav{padding: 30px;}
@@ -58,9 +57,10 @@ div {
   padding: 20px;
 }
 
-.flexform, .flexmap{display: flex;}
-.flexmap{flex-wrap: wrap;}
-.flexmap div {flex: 1;}
+.flexform{display: flex;}
+.flexmap{display: flex; flex-wrap: wrap; padding: 30px; justify-content: space-evenly;}
+.flexmap img {padding-top: 20px;}
+
 .flexform, .flexmap{background-color: #7790ff48; border-radius: 2em; margin: 50px;}
 .flexmap{justify-content: space-evenly;}
 hr {margin-top: 75px; margin-bottom: 75px;}
@@ -69,7 +69,6 @@ iframe {border: 5px solid #7790ff48;}
 header, footer, body {background-color: #b5c2fc48;}
 
 
-header nav{padding: 30px;}
 nav a{padding: 10px; }
 nav span{color: #a0a0a0;}
 nav{text-align: center;}

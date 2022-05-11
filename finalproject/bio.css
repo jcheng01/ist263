@@ -1,11 +1,10 @@
 body{margin: 0;padding: 0; font-family: 'Times New Roman', Times, serif;}
-section{font-family: 'Times New Roman', Times, serif
-    ;}
+section{font-family: 'Times New Roman', Times, serif;}
 hr{margin-left: 40px; margin-right: 40px;}
 section{text-align: center; padding-top: 20px; padding-bottom: 50px;}
 section h1 {color: #000E54}
 section{background-color: #b5c2fc48;}
-
+header, footer, body {background-color: #b5c2fc48;}
 h2 {text-align: center;}
 
 #hamburger{width: 60px; display: none; text-align: right;}
