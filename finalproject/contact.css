@@ -33,7 +33,7 @@ input[type=text], select {
 input[type=submit] {
   width: 100%;
   background-color: #F76900;
-  color: #ffffff;
+  color: #000000;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -52,6 +52,7 @@ section div {
 }
 
 .flexform{display: flex;}
+.ava {justify-content: center;}
 .flexmap{display: flex; flex-wrap: wrap; padding: 30px; justify-content: space-evenly;}
 .flexmap img {padding-top: 20px;}
 
