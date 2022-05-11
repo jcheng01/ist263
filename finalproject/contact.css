@@ -42,7 +42,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #db6001;
+  background-color: #a33604;
 }
 
 section div {
@@ -55,7 +55,7 @@ section div {
 .flexmap{display: flex; flex-wrap: wrap; padding: 30px; justify-content: space-evenly;}
 .flexmap img {padding-top: 20px;}
 
-.flexform, .flexmap{background-color: #9077ff48; border-radius: 2em; margin: 50px;}
+.flexform, .flexmap{background-color: #7790ff48; border-radius: 2em; margin: 50px;}
 .flexmap{justify-content: space-evenly;}
 hr {margin-top: 75px; margin-bottom: 75px;}
 
