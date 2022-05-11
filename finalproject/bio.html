@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bio</title>
+    <link rel="stylesheet" href="bio.css">
+    <script>
+        function changeimg () {
+            document.getElementById("rollover").setAttribute("src", "https://jcheng01.github.io/ist263/image/pokemon.png")
+        }
+        function changbackimg () {
+            document.getElementById("rollover").setAttribute("src", "https://jcheng01.github.io/ist263/image/pokeball(1).png")
+        }
+        function changeimgcard () {
+            document.getElementById("rollovertwo").setAttribute("src", "https://jcheng01.github.io/ist263/image/pokerchip.png")
+        }
+        function changbackimgcard () {
+            document.getElementById("rollovertwo").setAttribute("src", "https://jcheng01.github.io/ist263/image/card-game.png")
+        }
+        function changeimgmoney () {
+            document.getElementById("rolloverthree").setAttribute("src", "https://jcheng01.github.io/ist263/image/dollarsign.png")
+        }
+        function changbackimgmoney () {
+            document.getElementById("rolloverthree").setAttribute("src", "https://jcheng01.github.io/ist263/image/lifestyle.png")
+        }
+        function toggleNav () {
+                if (document.getElementById("nav").style.getPropertyValue("display") == "block") {
+                    document.getElementById("nav").style.display = "none";
+                }
+
+                else {
+                    document.getElementById("nav").style.display = "block";}
+            }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="title">
+           <a href="bio.html"><h1>Biography</h1></a> 
+        </div>
+        <div class="headrow2">
+            <nav>
+                <img src="../image/menu.png" alt="hamburger icon" id="hamburger" onclick="toggleNav();">
+                <div id="nav">
+                    <a href="home.html" target="_blank">home</a><span>|</span>
+                    <a href="bio.html" target="_blank" >bio</a><span>|</span>
+                    <a href="contact.html" target="_blank" >contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <hr>
+        <h1>Growing up</h1>
+        <div class="growingflex">
+            <div> <a href="https://www.google.com/maps/place/East+Harlem,+New+York,+NY/@40.8004667,-73.9597582,14z/data=!3m1!4b1!4m5!3m4!1s0x89c2f60f3189564d:0x1f81ef1c8b10115e!8m2!3d40.7957399!4d-73.9389213"><img src="../image/eastharlem.jpeg" alt="home" height="400" class="home"></a></div>
+            <div>
+                <p class="gucenter">
+                    I was born and raised in Manhattan. When you hear the word "Manhattan," you think city, wealth, comfort, higher end. However that is not the case. I live in east harlem and it has a reputation for its lower standards and occasional drugs. I have been living in east harlem for as long as i can remember and it has been a big part of my personal development in terms of characteristics.
+                </p>
+            </div>
+        
+        </div>
+        <hr>
+    </section>
+    <Section>
+        <div class="vg">
+            <h2>Video Games</h2>
+            <img src="../image/pokeball (1).png" alt="home" height="250" id="rollover" onmouseover="changeimg();" onmouseout="changbackimg();">
+            <p>
+                I grew up loving pokemon as a game. I would spend hours and days in middleschool grinding out the game because I was so invested in being the best "pokemon trainer." I slowly grew out of gaming becuase I began to find it meaningless. After spending hours in a game I gained nothing valuable. All the time feels wasted on a virtual disk and I can never get the valuable time back. The only time I feel games are approriate is when making memories within a group environment. 
+            </p>
+        </div>
+        <hr>
+        <div class="cards">
+            <h2>Cards</h2>
+            <img src="../image/card-game.png" alt="home" height="250" id="rollovertwo" onmouseover="changeimgcard();" onmouseout="changbackimgcard();">
+            <p>
+                If i didnt sound introverted enough, growing up I was also invested in collecting cards, specifically Yu-Gi-Oh cards. I would spend too much money on pieces of paer with cool art and simply collect them. I would also play cards games like texas holdem, and chinese poker. Developing a small gambling adition was absolutely necessasry haha. But having all these expiereinces definitely helped shape me into the person I am today. 
+            </p>
+        </div>
+        <hr>
+        <div class="life">
+            <h2>Lifestyle</h2>
+            <img src="../image/lifestyle.png" alt="home" height="250" id="rolloverthree" onmouseover="changeimgmoney();" onmouseout="changbackimgmoney();">
+            <p>
+                In highschool things got busy and going into college, even busier. Now my passion is to improve my way of life and that means improving aspects on how productive I can be, how to schedule my workout routine, and how having a routine keeps me organized and happy overall. 
+            </p>
+        </div>
+        <hr>
+    </Section>
+    <section class="hobbies">
+        <h1>Hobbies</h1>
+        <div class="hobbyflex">
+            <div>
+                <a href="https://experience.syracuse.edu/bewell/"><img src="../image/gym.png" alt="life1" height="200"></a>
+                <p>Working out is a significant part of my life. I have to be able to relax and have some me time. The gym has always been the place for me too relax and unwind. Being physically active is part of our well being and should not be neglected no matter how difficult things get. A workout a day keeps the doctor away  </p>
+            </div>
+            <div>
+                <img src="../image/travel-luggage.png" alt="life2" height="200">
+                <p>I love to travel and imerse myself in diferent cultures. I respect people from everybackground and I get easily interested in cultural differences. I want to expierience the different cuisines, way of life, architecture, climates, and how people interact. Please recommend some places you have visited yourself</p>
+            </div>
+            <div>
+                <img src="../image/productivity.png" alt="life3" height="200">
+                <p>I enjoy getting things done. Being lazy and watching movies all day is meaningless and has no value. I would not respect someone who sits on the couch all day. So I refuse to become that person. You only have only life. the time you spend can never be botten back. So why not make the most of it and do somethings.</p>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+
+    <footer>
+        <div>
+            <nav>
+                <a href="home.html" target="_blank">home</a><a href="bio.html" target="_blank">bio</a><a href="contact.html" target="_blank">contact</a>
+            </nav>
+        </div>
+        <div>
+            <nav> 
+                <a href="https://www.linkedin.com/in/chengjustin0222"><img src="../image/linkinlogo.png" alt ="linkedin" width="30" height="30"></a> 
+                <a href="https://www.instagram.com/"><img src="../image/instalogo.png" width="30" height="30" alt="insta"></a>
+                <a href="https://www.facebook.com/"><img src="../image/fblogo.png" width="30" height="30" alt="fb"></a>
+            </nav>
+        </div>
+
+        <div class="copyright">&copy; 2022</div>
+    </footer>
+</body>
+</html>

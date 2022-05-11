@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="project.css">
+    <script>
+        function firstbutton() {
+            document.getElementById("education").innerHTML = window.location.href= "https://ischool.syr.edu/academics/information-management-and-technology-bachelors-degree/"
+        }
+        function toggleNav () {
+                if (document.getElementById("nav").style.getPropertyValue("display") == "block") {
+                    document.getElementById("nav").style.display = "none";
+                }
+
+                else {
+                    document.getElementById("nav").style.display = "block";}
+            }
+        function scale () {
+            document.getElementsById("logo6").style.transform = "rotate(7deg)";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="topright"> 
+                <a href="../image/SPR22RESUME.CHENG.jpg"><h1>Justin Cheng</h1></a>
+            </div>
+            <div class="headrow2">
+                <nav>
+                    <img src="../image/menu.png" alt="hamburger icon" id="hamburger" onclick="toggleNav();">
+                    <div id="nav">
+                        <div><a href="home.html" target="_blank">home</a><span>|</span></div>
+                        <div><a href="bio.html" target="_blank" >bio</a><span>|</span></div>
+                        <div><a href="contact.html" target="_blank" >contact</a></div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="fadedhomephoto">
+            <img src="IMG_4989.jpeg" alt="homephoto" class="homephoto">
+            <div class="fadedhometext">
+                <h1>Welcome</h1>
+                <p>This is my intro project to front end development, thank you for visiting. </p>
+            </div>
+        </div>
+    </header>
+    
+   <section class="sectionone">
+        <h2>Education</h2>
+        <a href="https://ischool.syr.edu/"><img src="../image/Syracuseor.png" alt="ischool" height="200" class="syracuse"></a>
+        <p>
+            I intially came into syracuse becuase the school had given me the best fininacial aid. I came in as a clueless business major because I was scared of a diffiuclt time in college. But I switched into ischool my second semester at cuse to pursue a deeper opportunistic career. Now my concentration is in web development and my goals are to continue this motivation to build front end websites and learn more about what coding languages go into a professional website. Now I am on the iSchools <strong>Deans List</strong> with a <strong>gpa of 3.7</strong>. My expected graduation date is 12/2023.
+        </p> 
+        <br>    
+        <button id="education" type="button" onclick="firstbutton();">Studies</button>
+        <hr>
+   </section>
+
+
+   <section class="sectiontwo">
+       <h2>Skillset</h2>
+       <div class="row1">
+            <div>
+                <img src="../image/html.png" alt ="htmllogo" width="200" height="200" class="logo1"><br>
+                <h2>HTML</h2><br>
+            </div>
+            <div>
+                <img src="../image/CSS.png" alt ="csslogo" width="200" height="200" class="logo2"><br>
+                <h2>CSS</h2><br>
+            </div>
+            <div>
+                <img src="../image/js.png" alt ="jslogo" width="200" height="200" class="logo3"><br>
+                <h2>Javascript</h2><br>
+            </div>
+        </div>
+        <div class="row2">
+            <div>
+                <img src="../image/sql2.png" alt ="sqllogo" width="200" height="200" class="logo4"><br>
+                <h2>SQL</h2><br>
+            </div>
+            <div>
+                <img src="../image/excel.png" alt ="excellogo" width="200" height="200" class="logo5"><br>
+                <h2>Excel</h2><br>
+            </div>
+            <div id="logo6" onmouseover="scale();">
+                <img src="../image/project.png" alt ="projectlogo" width="200" height="200" class="logo6"><br>
+                <h2>Project</h2><br>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="sectionthree">
+        <h2>Experiences</h2>
+        <div>
+            <div class="exp1">
+                <img src="../image/Syracuseor.png" alt="Barnes" height="200" class="barnes">
+                <div class="fade">
+                    <div class="text">
+                        -Provided excellent patron service effectively maintaining 99% satisfaction rate<br>
+                        -Delegated service assignments amongst other recreational staff<br>
+                        -Answered Queries on wide-ranging concerns utilizing facility virtual catalog
+                    </div>
+                </div>
+            </div>
+            <div class="exp2">
+                <img src="../image/us-deloitte-logo.webp" alt="deloitte" height="200" class="deloitte">
+                <div class="fade2">
+                    <div class="text2">
+                        -Actively engaged in understanding Salesforce platform management tools
+                        -Worked with Certified salesforce professionals on tasks to broaden comprehension of UI
+                    </div>
+                </div>
+            </div>
+            <div class="exp3">
+                <img src="../image/dycp.jpg" alt="syep" height="200" class="syep">
+                <div class="fade3">
+                    <div class="text3">
+                        -Virtual File Organization increased by 50% efficiency
+                        -Organized existing Excel spreadsheets by up to 33% reflecting updated databases
+                        -Bridged communication strategies between staff to aid project delegation
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>  
+    <footer>
+        <div>
+            <nav>
+                <a href="home.html" target="_blank">home</a><a href="bio.html" target="_blank">bio</a><a href="contact.html" target="_blank">contact</a>
+            </nav>
+        </div>
+        <div>
+            <nav> 
+                <a href="https://www.linkedin.com/in/chengjustin0222"><img src="../image/linkinlogo.png" alt ="linkedin" width="30" height="30"></a> 
+                <a href="https://www.instagram.com/"><img src="../image/instalogo.png" width="30" height="30" alt="insta"></a>
+                <a href="https://www.facebook.com/"><img src="../image/fblogo.png" width="30" height="30" alt="fb"></a>
+            </nav>
+        </div>
+
+        <div class="copyright">&copy; 2022</div>
+    </footer>
+</body>
+</html>

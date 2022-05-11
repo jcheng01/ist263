@@ -1,0 +1,63 @@
+body{margin: 0;padding: 0; font-family: 'Times New Roman', Times, serif;}
+section{font-family: 'Times New Roman', Times, serif
+    ;}
+hr{margin-left: 40px; margin-right: 40px;}
+section{text-align: center; padding-top: 20px; padding-bottom: 50px;}
+section h1 {color: #000E54}
+section{background-color: #b5c2fc48;}
+
+#hamburger{width: 60px; display: none; text-align: right;}
+@media only screen and (max-width: 600px)
+    {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;} 
+    #hamburger{display: block; }
+    #nav a {display: block;}
+    #nav {display: none;}
+    .head {display: flex; padding: 20px;}
+    header {display: flex; justify-content: space-between;}
+    .title {margin-left: 30px; margin-top: 20px;}
+}
+
+
+
+/*header*/
+a:link { text-decoration: none; color: #F76900;}
+a:visited { text-decoration: none; color: #F76900;}
+a:hover { text-decoration: none; color: #000E54; }
+a:active { text-decoration: none; }
+header{background-color: #b5c2fc48
+    ;}
+
+h1 {text-align: center;}
+
+.head{  background-color: #ffffff75;}
+
+
+header nav{padding: 30px;}
+nav a{padding: 10px;}
+nav span{color: #a0a0a0;}
+nav{text-align: center;}
+
+
+.hobbies div{display: flex; justify-content: space-evenly;flex-wrap: wrap;}
+.hobbies div div {flex: 1;}
+
+
+
+/**/
+footer{background-color: #b5c2fc48;}
+footer div {padding: 10px;}
+.navfoot {display: flex;}
+
+.copyright{text-align: right; margin-right: 20px;}
+
+
+div p {text-align: center;}
+section div img {text-align: center; border: 3px solid #000e5456;margin-top: 20px; padding: 10px; border-radius: 2em;background-color: #000E54; }
+section div p {text-align: center;padding: 30px; background-color: #000e5456; border-radius: 2em; margin-right: 30px; margin-left: 30px; margin-bottom: 50px;}
+.growingflex {display: flex; margin: 20px;justify-content: center; flex-wrap: wrap;}
+.growingflex div {margin: 20px;justify-content: space-around; flex: 1;}
+.hobbyflex {display: flex; justify-content: space-around;}
+.hobbyflex div {justify-content: space-around;}
+
+.gucenter {text-align: center; margin: 120px;}
+
