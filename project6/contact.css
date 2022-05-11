@@ -17,9 +17,9 @@ h1 {text-align: center;}
 .profile {max-width: 100%;}
 
 header nav{padding: 30px;}
-nav a{padding: 10px;}
-nav span{color: #a0a0a0;}
-nav{text-align: center;}
+#nav a{padding: 10px;}
+#nav span{color: #a0a0a0;}
+#nav{text-align: center;}
 
 
 footer div {padding: 10px;}
@@ -69,6 +69,10 @@ iframe {border: 5px solid #7790ff48;}
 header, footer, body {background-color: #b5c2fc48;}
 
 
+header nav{padding: 30px;}
+nav a{padding: 10px; }
+nav span{color: #a0a0a0;}
+nav{text-align: center;}
 
 #hamburger{width: 60px; display: none; text-align: right;}
 @media only screen and (max-width: 600px)

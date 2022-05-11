@@ -12,8 +12,9 @@ section{background-color: #b5c2fc48;}
     #hamburger{display: block;}
     #nav a {display: block;}
     #nav {display: none;}
-    .head {display: flex; padding: 20px; justify-content: space-between;}
+    .head {display: flex; padding: 20px; justify-content: space-between; flex-wrap: wrap;}
     .topright {margin-top: 20px;}
+    
 
 }
 
