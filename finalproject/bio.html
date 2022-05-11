@@ -25,11 +25,8 @@
         function changbackimgmoney () {
             document.getElementById("rolloverthree").setAttribute("src", "https://jcheng01.github.io/ist263/image/lifestyle.png")
         }
-        function changeimgplane () {
-            document.getElementById("rolloverfour").setAttribute("src", "https://jcheng01.github.io/ist263/image/plane.png")
-        }
-        function changbackimgplane () {
-            document.getElementById("rolloverfour").setAttribute("src", "https://jcheng01.github.io/ist263/image/travel-luggage.png")
+        function press () {
+            document.getElementById("scale").style.transform = "rotate(20deg)"
         }
 
         function toggleNav () {
@@ -106,7 +103,7 @@
                 <p>Working out is a significant part of my life. I have to be able to relax and have some me time. The gym has always been the place for me too relax and unwind. Being physically active is part of our well being and should not be neglected no matter how difficult things get. A workout a day keeps the doctor away  </p>
             </div>
             <div>
-                <img src="../image/travel-luggage.png" alt="life2" height="200" id="rolloverfour" onmouseover="changeimgplane();" onmouseout="changbackimgplane();">
+                <img src="../image/travel-luggage.png" alt="life2" height="200" id="rolloverfour" id="scale" onclick="press();">
                 <p>I love to travel and imerse myself in diferent cultures. I respect people from everybackground and I get easily interested in cultural differences. I want to expierience the different cuisines, way of life, architecture, climates, and how people interact. Please recommend some places you have visited yourself</p>
             </div>
             <div>
