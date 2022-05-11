@@ -67,6 +67,8 @@ nav a{padding: 10px;}
 nav span{color: #a0a0a0;}
 nav{text-align: center;}
 
+iframe {padding-top: 35px;}
+
 #hamburger{width: 60px; display: none; text-align: right;}
 @media only screen and (max-width: 600px)
     {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;} 
