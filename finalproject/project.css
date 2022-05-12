@@ -73,8 +73,9 @@ nav{text-align: center;}
 
 
 /*skills*/
-.row1, .row2{display: flex; justify-content: space-around; flex-wrap: wrap;}
-.row1 div, .row2 div{flex: 1;}
+.row1, .row2{display: flex; justify-content: space-around; flex-wrap: wrap;  }
+.row1 div, .row2 div{flex: 1; }
+.row1 div {justify-content: space-evenly;}
 .sectiontwo div{padding: 20px;}
 
 
@@ -84,6 +85,9 @@ nav{text-align: center;}
 .sectionthree div div{justify-content: center; flex: 1; padding: 50px;}
 
 
+table, td, th {border: 2px solid #000E54; text-align: center; padding: 20px;}
+.table {display: flex; justify-content: center;}
+caption{font-weight: bold; padding-bottom: 20px;}
 /**/
 
 

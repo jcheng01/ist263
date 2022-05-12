@@ -18,8 +18,47 @@
                 else {
                     document.getElementById("nav").style.display = "block";}
             }
-        function scale () {
-            document.getElementsById("logo6").style.transform = "rotate(7deg)";
+        function changecolor () {
+            document.getElementById("table").style.backgroundColor = "yellow"
+        }
+        function changbackcolor () {
+            document.getElementById("table").style.backgroundColor = "#7790ff48"
+        }
+        function changeskill () {
+            document.getElementById("logo1").style.color = "#F76900"
+        }
+        function changbackskill () {
+            document.getElementById("logo1").style.color = "#000E54"
+        }
+        function changeskillTwo () {
+            document.getElementById("logo2").style.color = "#F76900"
+        }
+        function changbackskillTwo () {
+            document.getElementById("logo2").style.color = "#000E54"
+        }
+        function changeskillThree () {
+            document.getElementById("logo3").style.color = "#F76900"
+        }
+        function changbackskillThree () {
+            document.getElementById("logo3").style.color = "#000E54"
+        }
+        function changeskillFour () {
+            document.getElementById("logo4").style.color = "#F76900"
+        }
+        function changbackskillFour () {
+            document.getElementById("logo4").style.color = "#000E54"
+        }
+        function changeskillFive () {
+            document.getElementById("logo5").style.color = "#F76900"
+        }
+        function changbackskillFive () {
+            document.getElementById("logo5").style.color = "#000E54"
+        }
+        function changeskillSix () {
+            document.getElementById("logo6").style.color = "#F76900"
+        }
+        function changbackskillSix () {
+            document.getElementById("logo6").style.color = "#000E54"
         }
     </script>
 </head>
@@ -59,37 +98,61 @@
         <button id="education" type="button" onclick="firstbutton();">Studies</button>
    </section>
 
-
    <section class="sectiontwo">
        <h2>Skillset</h2>
        <div class="row1">
-            <div>
-                <img src="../image/html.png" alt ="htmllogo" width="200" height="200" class="logo1"><br>
+            <div id="logo1">
+                <img src="../image/html.png" alt ="htmllogo" width="200" height="200" class="logo1" onmouseover="changeskill();" onmouseout="changbackskill();"><br>
                 <h2>HTML</h2><br>
             </div>
-            <div>
-                <img src="../image/CSS.png" alt ="csslogo" width="200" height="200" class="logo2"><br>
+            <div id="logo2">
+                <img src="../image/CSS.png" alt ="csslogo" width="200" height="200" class="logo2" onmouseover="changeskillTwo();" onmouseout="changbackskillTwo();"><br>
                 <h2>CSS</h2><br>
             </div>
-            <div>
-                <img src="../image/js.png" alt ="jslogo" width="200" height="200" class="logo3"><br>
+            <div id="logo3">
+                <img src="../image/js.png" alt ="jslogo" width="200" height="200" class="logo3" onmouseover="changeskillThree();" onmouseout="changbackskillThree();"><br>
                 <h2>Javascript</h2><br>
             </div>
         </div>
         <div class="row2">
-            <div>
-                <img src="../image/sql2.png" alt ="sqllogo" width="200" height="200" class="logo4"><br>
+            <div id="logo4">
+                <img src="../image/sql2.png" alt ="sqllogo" width="200" height="200" class="logo4" onmouseover="changeskillFour();" onmouseout="changbackskillFour();"><br>
                 <h2>SQL</h2><br>
             </div>
-            <div>
-                <img src="../image/excel.png" alt ="excellogo" width="200" height="200" class="logo5"><br>
+            <div id="logo5">
+                <img src="../image/excel.png" alt ="excellogo" width="200" height="200" class="logo5" onmouseover="changeskillFive();" onmouseout="changbackskillFive();"><br>
                 <h2>Excel</h2><br>
             </div>
-            <div id="logo6" onmouseover="scale();">
-                <img src="../image/project.png" alt ="projectlogo" width="200" height="200" class="logo6"><br>
+            <div id="logo6">
+                <img src="../image/project.png" alt ="projectlogo" width="200" height="200" class="logo6" onmouseover="changeskillSix();" onmouseout="changbackskillSix();"><br>
                 <h2>Project</h2><br>
             </div>
         </div>
+
+        <hr>
+        <div class="table">
+           <table id="table" onmouseover="changecolor();" onmouseout="changbackcolor();">
+                <caption>Other Skills</caption><!--the tables heading-->
+                <tr>
+                    <th>Name</th><!--th is the header/column-->
+                    <th>Description</th>
+                </tr>
+                <tr class="evenrow">
+                    <td>Mandarin</td><!--td is the field data-->
+                    <td>Fluent, Speaking, Limited professional expiereince</td>
+                </tr>
+                <tr>
+                    <td>Data Organization</td>
+                    <td>Basic working knowledge, 2years expiereince</td>
+                </tr>
+                <tr class="evenrow">
+                    <td>Time management</td>
+                    <td>Demonstration of time management through workstudies and  consistent 18 credit semesters</td>
+                </tr>
+            </table><br> 
+        </div>
+        
+
     </section>
 
     <section class="sectionthree">

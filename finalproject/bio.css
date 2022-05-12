@@ -41,8 +41,7 @@ nav{text-align: center;}
 .hobbies div{display: flex; justify-content: space-evenly;flex-wrap: wrap;}
 .hobbies div div {flex: 1;}
 
-.over {max-inline-size: 100%;
-    block-size: auto;}
+
 
 /**/
 
@@ -55,10 +54,10 @@ footer div {padding: 10px;}
 div p {text-align: center;}
 section div img {text-align: center; border: 3px solid #000e5456;margin-top: 20px; padding: 10px; border-radius: 2em;background-color: #000E54; }
 section div p {text-align: center;padding: 30px; background-color: #000e5456; border-radius: 2em; margin-right: 30px; margin-left: 30px; margin-bottom: 50px;}
-.growingflex {display: flex; margin: 20px;justify-content: center; flex-wrap: wrap;}
-.growingflex div {margin: 20px;justify-content: space-around; flex: 1;}
+.growingflex {display: flex; justify-content: center; flex-wrap: wrap; padding: 20px;}
+.growingflex div {flex: 1;}
 .hobbyflex {display: flex; justify-content: space-around;}
 .hobbyflex div {justify-content: space-around;}
 
-.gucenter {text-align: center; margin: 120px;}
+.gucenter {text-align: center; margin-top: 100px; margin-left: 75px; margin-right: 75px;}
 

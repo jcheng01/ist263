@@ -62,7 +62,7 @@ hr {margin-top: 75px; margin-bottom: 75px;}
 
 
 
-
+#syrlogo{padding: 20px; border-radius: 2em;}
 
 nav a{padding: 10px;}
 nav span{color: #a0a0a0;}
@@ -73,14 +73,15 @@ iframe {padding-top: 35px;}
 #hamburger{width: 60px; display: none; text-align: right;}
 @media only screen and (max-width: 600px)
     {nav a {display: flex; padding: 0px; justify-content: center;} body span{display: none;} nav {text-align: center; padding: 0px;} 
-    #hamburger{display: block;margin-top: 50px; margin-right: 50px;}
-    #nav a {display: block;}
+    #hamburger{display: block;margin-top: 50px; margin-right: 55px;}
+    #nav a {display: block; padding: 10px; margin-right: 50px;}
     #nav {display: none;}
     .head {display: flex; padding: 20px;}
     header {display: flex; justify-content: space-between;}
     .title {margin-top: 40px; margin-left: 20px;}
     .footer {display: flex; justify-content: space-evenly;}
     .footer nav a {padding: 10px;}
+
     
 }
 .copyright{text-align: right; margin-right: 20px;}
